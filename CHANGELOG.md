@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2025-01-11
+
+### Added
+- **Lucide Svelte**: Modern icon library with 1000+ icons
+- **Svelte Sonner**: Beautiful toast notifications for Svelte
+- **FormKit Auto Animate**: Smooth automatic animations
+- **Enhanced UI Components**:
+  - Button component with variants (primary, secondary, outline, ghost, danger) and loading states
+  - Card component with hover effects and transitions
+  - Badge component with color variants (default, primary, success, warning, danger, info)
+  - Modal component with Svelte transitions and size options
+- **404 Error Page**: Animated error page using +error.svelte with Svelte transitions
+- **Toast Notifications**: Global toast system using svelte-sonner
+- **Environment Variables**: .env.example with common configuration options
+
+### Changed
+- Enhanced layout with toast notifications
+- Improved user experience with Svelte 5 runes and built-in transitions
+
+### Developer Experience
+- All UI components built with Svelte 5 runes and TypeScript
+- Reusable component library leveraging Svelte's reactivity
+- Toast notifications system integrated in root layout
+- Smooth transitions using Svelte's built-in animation system
+
 ## [1.0.0] - 2025-01-11
 
 ### Added
