@@ -8,7 +8,9 @@
     "singleQuote": true,
     "semi": true,
     "trailingComma": "es5",
-    "plugins": ["prettier-plugin-svelte"],
+    "plugins": [
+      "prettier-plugin-svelte"
+    ],
     "overrides": [
       {
         "files": "*.svelte",
@@ -38,5 +40,10 @@
     "tslib": "^2.8.1",
     "typescript": "~5.7.2",
     "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "^0.9.0",
+    "lucide-svelte": "^0.562.0",
+    "svelte-sonner": "^1.0.7"
   }
 }
