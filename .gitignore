@@ -3,10 +3,12 @@ node_modules
 /build
 /.svelte-kit
 /package
-.env
-.env.*
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vercel
 .output
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
